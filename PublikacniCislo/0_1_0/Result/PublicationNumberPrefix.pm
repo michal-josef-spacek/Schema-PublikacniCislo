@@ -15,7 +15,6 @@ __PACKAGE__->add_columns(
 	},
 	'publication_number_prefix' => {
 		'data_type' => 'integer',
-		'size' => 5,
 	},
 	'created_by_id' => {
 		'data_type' => 'integer',
