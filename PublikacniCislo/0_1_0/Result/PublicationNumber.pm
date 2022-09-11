@@ -27,6 +27,7 @@ __PACKAGE__->add_columns(
 );
 __PACKAGE__->set_primary_key('publication_number_id');
 __PACKAGE__->belongs_to('created_by' => 'Schema::PublikacniCislo::0_1_0::Result::Person', 'created_by_id');
+__PACKAGE__->has_many('links' => 'Schema::PublikacniCislo::0_1_0::Result::PublicationNumberLink', 'publication_number_id');
 
 1;
 
