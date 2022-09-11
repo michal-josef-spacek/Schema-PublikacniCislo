@@ -17,7 +17,7 @@ __PACKAGE__->add_columns(
 		'data_type' => 'text',
 		'size' => 255,
 	},
-	'wikidata_qid' => {
+	'wikidata_property' => {
 		'data_type' => 'text',
 		'size' => 30,
 		'is_nullable' => 1,
